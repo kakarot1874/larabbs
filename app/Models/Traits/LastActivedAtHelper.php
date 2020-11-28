@@ -1,9 +1,16 @@
 <?php
+/*
+ * @Author: kakarot1874
+ * @Date: 2020-11-28 14:52:35
+ * @LastEditors: kakarot1874
+ * @LastEditTime: 2020-11-28 19:08:02
+ * @Description: file content
+ */
 
 namespace App\Models\Traits;
 
-use Redis;
 use Carbon\Carbon;
+use Illuminate\Support\Facades\Redis;
 
 trait LastActivedAtHelper
 {
